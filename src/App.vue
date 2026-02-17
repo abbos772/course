@@ -6,9 +6,9 @@ import HowItWorks from './components/HowItWorks.vue';
 import Course from './components/Course.vue';
 import FAQ from './components/FAQ.vue';
 import Statistics from './components/Statistics.vue';
-import Popular from './components/popular.vue';
-import Topfooter from './components/topfooter.vue';
+import Topfooter from './components/TopFooter.vue';
 import Footer from './components/Footer.vue';
+import Popular from './components/Popular.vue';
 </script>
 
 <template>
