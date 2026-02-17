@@ -38,11 +38,11 @@ const close = () => (open.value = false)
     </div>
 
     <div v-if="open" class="mobile-menu">
-      <a href="#" @click.prevent="close">Главная</a>
-      <a href="#" @click.prevent="close">Популярные курсы</a>
-      <a href="#" @click.prevent="close">учебные центры</a>
-      <a href="#" @click.prevent="close">видеокурсы</a>
-      <a href="#" @click.prevent="close">FAQ</a>
+      <a href="#">Главная</a>
+      <a href="#course">Популярные курсы</a>
+      <a href="#course">учебные центры</a>
+      <a href="#course_video">видеокурсы</a>
+      <a href="#faq">FAQ</a>
       <div class="mobile-actions">
         <button class="button_lang">Uz/Ru</button>
         <button class="logout">Войти</button>
