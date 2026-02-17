@@ -16,7 +16,7 @@ const close = () => (open.value = false)
         <a href="#">Главная</a>
         <a href="#course">Популярные курсы</a>
         <a href="#course">учебные центры</a>
-        <a href="#">видеокурсы</a>
+        <a href="#course_video">видеокурсы</a>
         <a href="#faq">FAQ</a>
       </nav>
       
@@ -54,8 +54,10 @@ const close = () => (open.value = false)
 <style scoped>
   .navbar {
     width: 100%;
-    padding: 16px 0;
+    padding-top: 16px;
     background: #fff;
+    position: fixed;
+    z-index: 100;
   }
 
   .container {  

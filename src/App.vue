@@ -5,9 +5,10 @@ import HeroMain from './components/HeroMain.vue';
 import HowItWorks from './components/HowItWorks.vue';
 import Course from './components/Course.vue';
 import FAQ from './components/FAQ.vue';
-import Statistics from './components/statistics.vue';
+import Statistics from './components/Statistics.vue';
 import Popular from './components/popular.vue';
-// import Footer from './components/Footer.vue';
+import Topfooter from './components/topfooter.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -19,5 +20,6 @@ import Popular from './components/popular.vue';
   <FAQ/>
   <Statistics/>
   <Popular/>
-  <!-- <Footer/> -->
+  <Topfooter  />
+  <Footer/>
 </template>

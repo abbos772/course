@@ -3,7 +3,7 @@
 
 <template>
   <main>
-    <h1>Популярные видеоуроки</h1>
+    <h1 id="course_video">Популярные видеоуроки</h1>
    <div class="container">
      <div class="videos">
       <div class="video_card">
