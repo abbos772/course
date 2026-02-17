@@ -22,4 +22,5 @@ import Popular from './components/Popular.vue';
   <Popular/>
   <Topfooter  />
   <Footer/>
+  
 </template>
